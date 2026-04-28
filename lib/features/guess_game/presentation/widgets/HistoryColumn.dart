@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class HistoryColumn extends StatelessWidget {
   final List<int> items;
 
-  const HistoryColumn({super.key, required this.items});
+  const HistoryColumn({required this.items});
 
   @override
   Widget build(BuildContext context) {
@@ -26,4 +26,4 @@ class HistoryColumn extends StatelessWidget {
       ),
     );
   }
-}
+}s

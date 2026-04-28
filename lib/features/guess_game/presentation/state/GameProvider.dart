@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:AdivinaJuegoMovil/features/guess_game/domain/entites/juego.dart';
+import '../../domain/entites/juego.dart';
 import '../../domain/usecases/MakeGuess.dart';
-import 'package:AdivinaJuegoMovil/features/guess_game/domain/usecases/ResetGame.dart';
+import '../../domain/usecases/ResetGame.dart';
 import 'package:AdivinaJuegoMovil/core/services/SoundService.dart';
 
 class GameProvider extends ChangeNotifier {

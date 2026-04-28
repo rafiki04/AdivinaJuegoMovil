@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:game/features/guess_game/domain/entites/juego.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/domain/entites/juego.dart';
 
 
 class ResetGame {

@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'package:AdivinaJuegoMovil/features/guess_game/presentation/state/GameProvider.dart';
 import 'package:AdivinaJuegoMovil/features/guess_game/presentation/widgets/ColumnList.dart';
-import 'package:AdivinaJuegoMovil/features/guess_game/presentation/widgets/InputBox.dart';
+import '../widgets/InputBox.dart';
 
 class GamePage extends StatefulWidget {
   const GamePage({super.key});

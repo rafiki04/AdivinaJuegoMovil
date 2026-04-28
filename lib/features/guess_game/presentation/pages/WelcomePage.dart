@@ -76,8 +76,8 @@ class _WelcomePageState extends State<WelcomePage>
                 Navigator.of(context).pushReplacement(
                   PageRouteBuilder(
                     transitionDuration: const Duration(milliseconds: 600),
-                    pageBuilder: (_, _, _) => const GamePage(),
-                    transitionsBuilder: (_, animation, _, child) {
+                    pageBuilder: (_, __, ___) => const GamePage(),
+                    transitionsBuilder: (_, animation, __, child) {
                       return FadeTransition(opacity: animation, child: child);
                     },
                   ),

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:audioplayers/audioplayers.dart'; // ← nuevo
+import 'package:audioplayers/audioplayers.dart';
 
-import 'package:game/features/guess_game/domain/usecases/MakeGuess.dart';
-import 'package:game/features/guess_game/domain/usecases/ResetGame.dart';
-import 'package:game/features/guess_game/presentation/state/GameProvider.dart';
-import 'package:game/features/guess_game/presentation/pages/GamePage.dart';
-import 'package:game/features/guess_game/presentation/pages/WelcomePage.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/domain/usecases/MakeGuess.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/domain/usecases/ResetGame.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/presentation/state/GameProvider.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/presentation/pages/GamePage.dart';
+import 'package:AdivinaJuegoMovil/features/guess_game/presentation/pages/WelcomePage.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized(); // ← nuevo
+  WidgetsFlutterBinding.ensureInitialized(); 
   await AudioPlayer.global.setGlobalAudioContext(
     AudioContext(
       android: AudioContextAndroid(
